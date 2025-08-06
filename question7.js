@@ -1,4 +1,4 @@
-function firstgreeting (language)
+function greeting (language){
 if (language == chichewa){
     console.log("Muli bwanji");
 }
@@ -11,19 +11,19 @@ else if (language == tumbuka){
 else{
     console.log("Hello");
 }
+}
 
 
 //switch statement
-
 function greetingSwicth(language){
 switch(language){
-    case "Chichewa";
+    case "Chichewa":
         console.log("Uli bwanj");
         break;
-    case "Yao";
+    case "Yao":
         console.log("Muli uli");
         break;
-    case "Tumbuka";
+    case "Tumbuka":
         console.log("Muli wuli");
         break;
     default:
